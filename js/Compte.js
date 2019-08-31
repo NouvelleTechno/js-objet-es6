@@ -32,6 +32,6 @@ class Compte{
      * Afficher le solde du compte
      */
     afficherSolde(){
-        console.log("Le compte présente un solde de "+ this.solde +" euros.");
+        console.log(`Le compte présente un solde de ${this.solde} euros.`);
     }
 }
