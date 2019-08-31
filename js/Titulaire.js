@@ -1,3 +1,6 @@
+/**
+ * Titulaires de comptes
+ */
 class Titulaire{
     /**
      * Titulaires de comptes bancaires
@@ -9,7 +12,10 @@ class Titulaire{
         this.prenom = prenom;
     }
 
+    /**
+     * Afficher l'identité du titulaire
+     */
     identite(){
-        console.log("Le titulaire s'appelle "+this.prenom+" "+this.nom);
+        console.log(`Le titulaire s'appelle ${this.prenom} ${this.nom}`);
     }
 }
