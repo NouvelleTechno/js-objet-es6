@@ -4,8 +4,8 @@
 class Titulaire{
     /**
      * Titulaires de comptes bancaires
-     * @param {string} nom 
-     * @param {string} prenom 
+     * @param {string} nom Nom du titulaire
+     * @param {string} prenom Prénom du titulaire
      */
     constructor(nom, prenom){
         this.nom = nom;

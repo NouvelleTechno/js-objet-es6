@@ -1,4 +1,12 @@
+/**
+ * Compte bancaire
+ */
 class Compte{
+    /**
+     * Création du compte
+     * @param {Titulaire} titulaire Titulaire du compte
+     * @param {number} montant Montant de départ
+     */
     constructor(titulaire, montant = 0){
         this.titulaire = titulaire;
         this.solde = montant;
@@ -20,6 +28,9 @@ class Compte{
         this.solde -= montant;
     }
 
+    /**
+     * Afficher le solde du compte
+     */
     afficherSolde(){
         console.log("Le compte présente un solde de "+ this.solde +" euros.");
     }

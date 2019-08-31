@@ -1,4 +1,14 @@
+/**
+ * Compte épargne
+ */
 class CompteEpargne extends Compte{
+    /**
+     * Création du compte
+     * @param {Titulaire} titulaire Titulaire du compte
+     * @param {number} montant Montant de départ
+     * @param {number} taux Taux d'intérêts
+     * @param {number} rythme Rythme de versement des intérêts (en millisecondes)
+     */
     constructor(titulaire, montant = 50, taux = 0.005, rythme = 1000){
         super(titulaire, montant);
         this.taux = taux;
